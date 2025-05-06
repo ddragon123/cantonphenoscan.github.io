@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户数据</title>
+		<script src="/cantonphenoscan.github.io/js/jquery-3.7.1.min.js"></script>
+		<script src="/cantonphenoscan.github.io/js/append2.js"></script>
+		<link rel="stylesheet" href="/cantonphenoscan.github.io/css/style.css">
+		<style>
+			.words {
+				width: 80%;
+				height: auto;
+				background-color: ghostwhite;
+				margin: 20px 10%;
+				margin-bottom: 120px;
+				padding-bottom: 120px;
+			}
+			
+			.words ul {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				list-style-type: none;
+			}
+			
+			.words ul li {
+				width: calc(100%/4);
+				margin: 50px 1%
+			}
+			
+			.words ul li img {
+				width: 600px;
+				height: 450px;
+				display: block;
+				margin: 0px auto;
+				border-radius: 24px;
+				object-fit: cover;
+			}
+			
+			.words ul li img:hover {
+				transition: all .3s;
+				box-shadow: 20px 20px 40px darkgray;
+				transform: scale(1.2);
+			}
+			
+			.words ul li .username {
+			text-align: center;	
+			font-weight: bold;
+			font-size: 40px;
+			line-height: 80px;
+			width: 100%;
+			
+			}
+		</style>
+	</head>
+	<body>
+		<div class="banner"></div>
+		<h4 class="title">我的数据</h4>
+		
+		<div class="words">
+			
+			
+			<ul>
+				<li>
+					<img src="/cantonphenoscan.github.io/图片/株高.png" alt="" />
+					<div class="username">株高</div>
+					<div class="msgs"></div>
+				</li>
+				
+				<li>
+					<img src="/cantonphenoscan.github.io/图片/分蘖数.png" alt="" />
+					<div class="username">分蘖数</div>
+					<div class="msgs"></div>
+				</li>
+				
+				<li>
+					<img src="/cantonphenoscan.github.io/图片/有效穗数.png" alt="" />
+					<div class="username">有效穗数</div>
+					<div class="msgs"></div>
+				</li>
+				
+				<li>
+					<img src="/cantonphenoscan.github.io/图片/冠层覆盖度.png" alt="" />
+					<div class="username">冠层覆盖度</div>
+					<div class="msgs"></div>
+				</li>
+				
+				<li>
+					<img src="/cantonphenoscan.github.io/图片/杂草识别.png" alt="" />
+					<div class="username">杂草分布</div>
+					<div class="msgs"></div>
+				</li>
+				
+				<li>
+					<div class="username"></div>
+					<div class="msgs"></div>
+				</li>
+				
+				<li>
+					<img src="/cantonphenoscan.github.io/图片/长势分布.jpg" alt="" />
+					<div class="username">长势分布</div>
+					<div class="msgs"></div>
+				</li>
+				
+				<li>
+					<img src="/cantonphenoscan.github.io/图片/氮素分布.jpg" alt="" />
+					<div class="username">氮素分布</div>
+					<div class="msgs"></div>
+				</li>
+				
+				<li>
+					<img src="/cantonphenoscan.github.io/图片/叶绿素a分布.jpg" alt="" />
+					<div class="username">叶绿素a分布</div>
+					<div class="msgs"></div>
+				</li>
+				
+				<li>
+					<img src="/cantonphenoscan.github.io/图片/水分胁迫监测.jpg" alt="" />
+					<div class="username">水分胁迫</div>
+					<div class="msgs"></div>
+				</li>
+				
+				<li>
+					<img src="/cantonphenoscan.github.io/图片/病害胁迫.jpg" alt="" />
+					<div class="username">病害胁迫</div>
+					<div class="msgs"></div>
+				</li>
+				
+				<li>
+					<div class="username"></div>
+					<div class="msgs"></div>
+				</li>
+				
+				<p style="font-size: 32px;">部分图片来自公众号“南飞测绘视界”文章，未用于商业用途，如有侵权请联系15768303793@163.com</p>
+		</div>
+			
+			
+		<div class="footer"></div>
+		
+		
+		
+		<script>
+		</script>
+	</body>
+</html>

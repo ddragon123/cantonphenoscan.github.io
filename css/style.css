@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.banner {
+	width: 100%;
+	height: 900px;
+	background-image: url("/cantonphenoscan.github.io/创建无人机平台及生成图片.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -200px;
+}
+
+.nav {
+    width: 100%;
+    height: 225px;
+    line-height: 50px;
+    font-size: 30px;
+	display: flex;
+	justify-content: space-between;
+    background-color: rgba(50,50,50,0.3);
+}
+
+.nav .as {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.nav .as a {
+	font-family: "PingFang SC","Microsoft YaHei",sans-serif;
+	font-size: 53px;
+	font-weight: 500;
+	font-weight: 100;
+	text-align: center;
+	width: calc(100% / 6);
+	text-decoration: none;
+	color: white;
+	padding: 90px 50px;
+	margin: 0 5px;
+}
+
+.main {
+	width: 80%;
+	height: auto;
+	margin: 70px 10%;
+	display: flex;
+	justify-content: space-between;
+	background-color: ghostwhite;
+}
+
+.main img {
+	width: 50%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.main .contents {
+	font-size: 38px;
+	padding: 30px 20px;
+}
+
+.main .contents h3 {
+	color: seagreen;
+}
+
+.main .contents p {
+	margin: 30px 0px;
+	text-indent: 2em;
+}
+
+.title {
+	width: 40%;
+	height: 60px;
+	line-height: 60px;
+	margin: 30px 30%;
+	border-bottom: 8px solid limegreen;
+	font-size: 50px;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.photo {
+	width: 80%;
+	height: 560px;
+	background-color: white;
+	margin: 30px 10%;
+	display: flex;
+	overflow: hidden;
+	justify-content: space-between;
+}
+
+.photo img {
+	width: calc(100%/3);
+}
+
+.photo img:hover {
+	transition: all .3s;
+	width: calc(100%/1);
+	transform: scaleX(2) rotateZ(10deg);
+	object-fit: cover;
+	
+}
+
+.footer {
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	background-color: green;
+	color: white;
+	display: flex;
+	padding: 0px 12%;
+	justify-content: space-between;
+}
+
+.footer .copyright {
+	font-size: 35px;
+}
